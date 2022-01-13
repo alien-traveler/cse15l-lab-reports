@@ -1,10 +1,12 @@
 # Hello World!
-## this is heading 2
+## What have you achieved today?
 
 1. some code blocks in *Java*
 ```
-public static void main(String[] args){
-  System.out.println("Hello World");
+public class HelloWorld{
+  public static void main(String[] args){
+    System.out.println("Hello World");
+  }
 }
 ```
 
@@ -16,6 +18,7 @@ greeting()
 ```
 ---
 Still exploring [markdown](https://commonmark.org/help)...
-> it is always worth trying and learning something new...
+- it is always worth trying and learning something new...
 
 ![Image](https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg)
+> I love this picture!!!
