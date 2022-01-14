@@ -1,6 +1,8 @@
 # Hello World!
 ## What have you achieved today?
 
+[Week 2 Lab Report](lab-report-1-week-2.md)
+
 1. some code blocks in *Java*
 ```
 public class HelloWorld{
