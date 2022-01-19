@@ -10,7 +10,7 @@ You can download Visual Sutdio Code by clicking [here](https://code.visualstudio
 After open your VScode, it should look 
 like this:
 
-![image](LabReport2/MyVscode.png)
+![image](LabReport2/MyVScode.png)
 
 ---
 
