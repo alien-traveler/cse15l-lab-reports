@@ -64,6 +64,6 @@ After doing that, I make a directory called `.ssh` on the server by entering `mk
 ---
 
 ## **6. Optimizing Remote Running**
-I integrate some commands together so that I can make a local edit to WhereAmI.java, then copy it to the remote server and run it in one line of command: `scp WhereAmI.java cs15lwi22adj@ieng6.ucsd.edu:~/; ssh cs15lwi22adj@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI`
+I integrate some commands together so that I can make a local edit to WhereAmI.java, then copy it to the remote server and run it in one line of command (one keystroke): `scp WhereAmI.java cs15lwi22adj@ieng6.ucsd.edu:~/; ssh cs15lwi22adj@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI`
 
 ![image](LabReport2/Optimizing.png)
