@@ -64,8 +64,11 @@ After doing that, I make a directory called `.ssh` on the server by entering `mk
 ---
 
 ## **6. Optimizing Remote Running**
-I integrate some commands together so that I can make a local edit to WhereAmI.java, then copy it to the remote server and run it in one line of command (one keystroke): `scp WhereAmI.java cs15lwi22adj@ieng6.ucsd.edu:~/; ssh cs15lwi22adj@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI`
 
-Otherwise, I have to do it this way: `scp WhereAmI.java cs15lwi22adj@ieng6.ucsd.edu:~/`, and then `ssh cs15lwi22adj@ieng6.ucsd.edu`, followed by `javac WhereAmI.java` and `java WhereAmI`. There are total four keystrokes, so by doing everything in one line, I save three keystrokes. 
+Firstly, I can make a local edit to WhereAmI.java, then copy it to the remote server and run it: `scp WhereAmI.java cs15lwi22adj@ieng6.ucsd.edu:~/`, and then `ssh cs15lwi22adj@ieng6.ucsd.edu`, followed by `javac WhereAmI.java` and `java WhereAmI`. There are total 121 keystrokes. 
+
+Next, I integrate some commands together so that I can make a local edit to WhereAmI.java, then copy it to the remote server and run it in one line of command: `scp WhereAmI.java cs15lwi22adj@ieng6.ucsd.edu:~/; ssh cs15lwi22adj@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI`, which is 118 strokes(117 characters and 1 enter) total. 
+
+Last, I used the up arrow which calls the commands I have used before. By clicking once the up arrow and then pressing enter, I have done the same operation as I did last time but only using 2 keystrokes.
 
 ![image](LabReport2/Optimizing.png)
